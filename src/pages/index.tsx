@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <Fragment>
       <div className="p-10 text-center bg-gradient-to-b from-red-800 to-black min-h-screen flex items-center justify-center">
-        <div className="text-center bg-gray-900 p-10 rounded-2xl shadow-2xl w-full max-w-4xl">
+        <div className="text-center bg-gray-900 p-10 rounded-2xl shadow-2xl w-auto max-w-4xl">
           <h1 className="text-4xl mb-8 text-red-500 font-serif">Create Custom Modal</h1>
-          <div className="space-x-4">
+          <div className="flex flex-col justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <button
               className="bg-gradient-to-r from-red-600 to-red-800 text-white hover:from-red-700 hover:to-red-900 focus:outline-none font-serif text-sm rounded-full px-6 py-3 shadow-md transition-transform transform hover:scale-105"
               onClick={() => setShowModal(true)}
